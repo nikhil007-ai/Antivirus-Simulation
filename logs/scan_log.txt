@@ -1,13 +1,1 @@
-[2026-05-02 02:26:16] [ERROR] Folder does not exist.
-[2026-05-02 02:26:39] [WARNING] Malware database is empty.
-[2026-05-02 02:38:42] --- Scan Completed ---
-[2026-05-02 02:38:52] --- Scan Completed ---
-[2026-05-02 02:39:46] --- Scan Completed ---
-[2026-05-02 02:41:23] --- Scan Completed ---
-[2026-05-02 02:48:25] [ERROR] Cannot read file test_file/virus.txt: [Errno 2] No such file or directory: 'test_file/virus.txt'
-[2026-05-02 02:51:53] [QUARANTINED] virus.txt
-[2026-05-02 02:54:35] [QUARANTINED] virus.txt
-[2026-05-02 02:54:35] [QUARANTINED] virus.txt
-[2026-05-02 03:05:41] [QUARANTINED] virus.txt
-[2026-05-02 03:13:06] [QUARANTINED] virus.txt
-[2026-05-02 03:13:06] [QUARANTINED] virus.txt
+
