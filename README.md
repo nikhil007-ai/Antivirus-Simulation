@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Antivirus Simulation
 
 ## Project Overview
@@ -99,3 +100,7 @@ Cybersecurity Intern
 ## Note
 
 This project is developed for educational purposes to demonstrate core antivirus concepts used in cybersecurity.
+=======
+# AntiVirus-Simulation
+Antivirus Simulation is a Python-based cybersecurity project that demonstrates how signature-based antivirus systems work. The program scans files, generates SHA-256 hashes, compares them against a malware signature database, and quarantines detected threats.
+>>>>>>> e523117d53722b10c8b9f9da848822377ea335d0
