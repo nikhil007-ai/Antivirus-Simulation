@@ -1,9 +1,9 @@
 import subprocess
 import sys
 
-# -----------------------------
+
 # AUTO INSTALL FUNCTION
-# -----------------------------
+
 def install(package):
     try:
         subprocess.check_call([sys.executable, "-m", "pip", "install", package])
@@ -11,9 +11,9 @@ def install(package):
         print(f"[ERROR] Failed to install {package}: {e}")
 
 
-# -----------------------------
+
 # CHECK MODULES
-# -----------------------------
+
 def check_and_install():
     required_packages = []  # currently none (your project uses stdlib)
 
@@ -25,9 +25,9 @@ def check_and_install():
             install(pkg)
 
 
-# -----------------------------
-# CHECK TKINTER (SYSTEM DEP)
-# -----------------------------
+
+# CHECK TKINTER 
+
 def check_tkinter():
     try:
         import tkinter
@@ -45,9 +45,9 @@ def check_tkinter():
         sys.exit(1)
 
 
-# -----------------------------
+
 # MAIN APP
-# -----------------------------
+
 def main():
     check_and_install()
     check_tkinter()
