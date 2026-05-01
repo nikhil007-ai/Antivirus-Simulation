@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Antivirus Simulation
 
 ## Project Overview
@@ -8,7 +7,7 @@ The program scans files, generates SHA-256 hashes, compares them against a malwa
 
 
 
-## bjectives
+## Objectives
 
 * Understand signature-based malware detection
 * Learn file hashing using SHA-256
@@ -59,13 +58,26 @@ AntiVirus_simulation/
 
 ## ▶How to Run
 
-### Option 1: Run using Python
+### Option 1: Run using Python(linux/Windows/macOS)
 
 bash
 python main.py
 
 
+### For Windows
+python main.py
 
+If Tkinter is missing:
+
+Reinstall Python from the official website
+Make sure “tcl/tk and IDLE” is selected during installation
+
+### For macOS
+python3 main.py
+
+If Tkinter is missing:
+
+brew install python-tk
 
 ## Requirements
 
@@ -100,7 +112,3 @@ Cybersecurity Intern
 ## Note
 
 This project is developed for educational purposes to demonstrate core antivirus concepts used in cybersecurity.
-=======
-# AntiVirus-Simulation
-Antivirus Simulation is a Python-based cybersecurity project that demonstrates how signature-based antivirus systems work. The program scans files, generates SHA-256 hashes, compares them against a malware signature database, and quarantines detected threats.
->>>>>>> e523117d53722b10c8b9f9da848822377ea335d0
